@@ -13,7 +13,7 @@ mongoose.connect(
 
 // GET ALL USER DATA
 app.get("/", (req, res) => {
-  res.send("hi its me abhay mishra");
+  res.send("hi its me Bhuvnesh Verma (main)");
 });
 app.get("/pokemon", (req, res) => {
   pokeModel
