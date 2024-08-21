@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-// URL
+// URL  for database
 mongoose.connect(
   "mongodb+srv://abhayanshmishra1371:mishraji1371@abhayproject.qjacr1a.mongodb.net/phoenix"
 );
